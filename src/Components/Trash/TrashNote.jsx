@@ -58,6 +58,7 @@ const TrashNote = ({ trashNote }) => {
                 onMouseEnter={() => setShowActions(true)}
                 onMouseLeave={() => setShowActions(false)}
             >
+{/*                 dddede */}
                 <CardContent sx={{ wordWrap: "break-word" }}>
                     <Typography>{trashNote.title}</Typography>
                     <Typography>{trashNote.text}</Typography>
